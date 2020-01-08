@@ -1,0 +1,32 @@
+{
+  "authConfig": {
+    "authModule": "anonymous"
+  },
+  "developmentPhase": "alpha",
+  "formName": "Cookies",
+  "destinations": [
+    {
+      "id": "transitionToSubmitted",
+      "type": "stateTransition",
+      "requiredState": "Submitted"
+    }
+  ],
+  "emailTemplateId": "temp",
+  "declarationSection": {
+    "title": "Declaration",
+    "shortName": "Declaration",
+    "fields": []
+  },
+  "acknowledgementSection": {
+    "title": "Confirmation page",
+    "shortName": "Acknowledgement Page",
+    "fields": []
+  },
+  "_id": "cookiesQuestionare",
+  "sections": [
+    {
+      "title": "Title",
+      "fields": []
+    }
+  ]
+}
